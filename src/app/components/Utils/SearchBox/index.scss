@@ -1,0 +1,27 @@
+.searchBox {
+  padding: 0px 5px 3px 14px;
+  display: inline-block;
+  box-sizing: border-box;
+
+  .dropDownIcon,
+  .searchBoxIcon {
+    height: 36px;
+    width: 36px;
+  }
+
+  .propertySelect {
+    color: rgba(0, 0, 0, 0.4);
+
+    > div > div {
+      padding-right: 10px;
+    }
+
+    &:after {
+      content: "";
+      border-right: 1px solid rgba(0, 0, 0, 0.4);
+      height: 20px;
+      margin-top: 6px;
+      margin-right: 10px;
+    }
+  }
+}

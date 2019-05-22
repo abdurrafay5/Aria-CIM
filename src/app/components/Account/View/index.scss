@@ -1,0 +1,79 @@
+h1.headingText {
+  margin-bottom: 10px;
+}
+
+h1.headingSubText {
+  font-weight: normal;
+
+  > span {
+    font-weight: 500;
+  }
+}
+
+h1.sectionHeader {
+  margin-bottom: 0.7em;
+}
+
+.paper {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+header.tabs {
+  margin-bottom: 30px;
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-top: -30px;
+  width: calc(100% + 60px);
+}
+
+.swipeableView {
+  margin: -10px;
+  overflow-y: hidden !important;
+
+  > div {
+    // margin: 10px;
+
+    > div {
+      overflow: visible !important;
+      padding: 10px;
+    }
+  }
+
+  .accountActions {
+    text-align: right;
+
+    > button {
+      vertical-align: middle;
+      margin-top: 12px;
+      margin-left: 15px;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
+
+    .moreIcon {
+      margin-left: 5px;
+      margin-right: -6px;
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .paymentHistory > div {
+    margin-top: 30px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  .accountDetail > div {
+    margin-top: 30px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+}

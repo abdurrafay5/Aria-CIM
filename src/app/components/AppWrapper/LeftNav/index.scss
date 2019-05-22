@@ -1,0 +1,22 @@
+.drawerPaper {
+  width: 280px;
+  
+  .logo {
+    text-align: center;
+    height: 64px;
+
+    img {
+      max-height: 100%;
+      max-width: 80%;
+      padding: 16px 50px 16px 16px;
+    }
+
+    .menuButton {
+      position: absolute;
+      right: 19px;
+      top: 16px;
+      width: 34px;
+      height: 34px;
+    }
+  }
+}

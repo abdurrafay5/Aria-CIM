@@ -1,0 +1,30 @@
+.login {
+  > div,
+  > div > div,
+  > div > div input {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 25px;
+
+    > * {
+      display: block;
+      margin: 20px 0;
+    }
+  }
+
+  .errorText {
+    color: red;
+    font-weight: 500;
+    margin-top: 10px;
+    display: block;
+  }
+
+  .loginButton {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
